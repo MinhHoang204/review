@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(0 && 1 && "Rikkei Academy" && null);
+        // Giá trị đầu tiên là 0, không thoả mãn điều kiện.
+        // Do đó, kết quả sẽ là 0.
+        console.log(2 && NaN && false && null);
+        // Giá trị đầu tiên là 2, thoả mãn.
+        // Giá trị thứ hai là NaN, không thoả mãn.
+        // Do đó, kết quả sẽ là NaN.
+        console.log(3 && 1 && 5 && null);
+        // Tất cả các giá trị đều không phải là false, undefined, null, 0, NaN, hoặc "".
+        // Do đó, giá trị cuối cùng, null, sẽ là giá trị trả về của biểu thức.
+        // Kết quả sẽ là null.
+        console.log("1" && undefined && 5 && NaN);
+        // Giá trị đầu tiên là chuỗi "1", không thoả mãn.
+        // Do đó, kết quả sẽ là "1".
+        console.log(1 && null && 12 && NaN);
+        // Giá trị đầu tiên là 1, thoả mãn.
+        // Giá trị thứ hai là null, không thoả mãn.
+        // Do đó, kết quả sẽ là null.
+    </script>
+</body>
+</html>

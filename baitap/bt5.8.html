@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 6;
+        // Sử dụng a++
+        console.log(a++); // In ra 6, sau đó a được tăng lên thành 7
+        // Sử dụng ++a
+        console.log(++a); // a được tăng lên thành 8, sau đó in ra 8
+        // let a = 6;
+        // let result = ++a + a + a++ + ++a + a;
+        // sẽ được tính toán theo thứ tự sau: 
+        // ++a: a được tăng lên thành 7, trả về giá trị mới (7).
+        // a: giá trị hiện tại của a (7).
+        // a++: trả về giá trị hiện tại của a (7), sau đó a tăng lên thành 8.
+        // ++a: a được tăng lên thành 9, trả về giá trị mới (9).
+        // a: giá trị hiện tại của a (9).
+        // Tổng cộng: 7 + 7 + 8 + 9 + 9 = 40.
+
+        // Vì vậy, giá trị của biểu thức là 40.    
+    </script>
+</body>
+</html>
